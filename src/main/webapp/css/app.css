@@ -1,0 +1,197 @@
+label {
+    cursor: pointer;
+}
+
+body {
+    background: #49864F;
+}
+
+body > .container {
+    background: #fff;
+    padding: 0 10px;
+    -moz-box-shadow: 0 0 20px 0 black;
+    -webkit-box-shadow: 0 0 20px 0 black;
+    box-shadow: 0 0 20px 0 black;
+}
+
+div.header {
+    background: url(/growfood-theme/images/header-bgr.jpg) no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    height: 295px;
+}
+
+.navbar {
+    margin-top: 190px;
+}
+
+.navbar-inner {
+    background: none;
+    border: 0;
+}
+
+a.home {
+    padding-left: 20px;
+}
+
+a.header {
+    color: #4F2A15;
+}
+
+a.signin {
+    padding-right: 20px;
+}
+
+a.signout {
+    padding-right: 20px;
+}
+
+li.menu1 {
+    background: #1a5377 url(/growfood-theme/images/nav21.gif) repeat-x top;
+    margin-left: 0 !important;
+}
+
+li.menu1 a:hover {
+    color: #8DADC7 !important;
+}
+
+li.menu2 {
+    background: #4a8750 url(/growfood-theme/images/nav22.gif) repeat-x top;
+}
+
+li.menu2 a:hover {
+    color: #A6D2A9 !important;
+}
+
+li.menu3 {
+    background: #992e68 url(/growfood-theme/images/nav23.gif) repeat-x top;
+}
+
+li.menu3 a:hover {
+    color: #D19AB8 !important;
+}
+
+li.menu4 {
+    background: #d44847 url(/growfood-theme/images/nav24.gif) repeat-x top;
+}
+
+li.menu4 a:hover {
+    color: #EFA9A3 !important;
+}
+
+li.menu5 {
+    background: #e97618 url(/growfood-theme/images/nav25.gif) repeat-x top;
+}
+
+li.menu5 a:hover {
+    color: #F9BD8C !important;
+}
+
+li.menu6 {
+    background: #643759 url(/growfood-theme/images/nav26.gif) repeat-x top;
+}
+
+li.menu6 a:hover {
+    color: #B59BAF !important;
+}
+
+li.menu7 {
+    background: #4278a9 url(/growfood-theme/images/nav27.gif) repeat-x top;
+}
+
+li.menu7 a:hover {
+    color: #A9C0E0 !important;
+}
+
+li.menu8 {
+    background: #1a5377 url(/growfood-theme/images/nav21.gif) repeat-x top;
+}
+
+li.menu8 a:hover {
+    color: #8DADC7 !important;
+}
+
+li.menu9 {
+    background: #4a8750 url(/growfood-theme/images/nav22.gif) repeat-x top;
+}
+
+li.menu9 a:hover {
+    color: #A6D2A9 !important;
+}
+
+.navbar .nav > li {
+    margin: 0 10px;
+}
+
+.navbar .nav > li > a {
+    color: #ffffff;
+    text-shadow: none;
+    text-align: right;
+    width: 100px;
+}
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+}
+
+/* Desktop
+------------------------- */
+@media (max-width: 1199px) and (min-width: 981px) {
+    div.header {
+        height: 235px;
+    }
+
+    .navbar {
+        margin-top: 135px;
+    }
+
+    .navbar .nav > li > a {
+        width: 70px;
+    }
+
+    .navbar .nav > li {
+        margin: 0 5px !important;
+    }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 980px) {
+    div.header {
+        height: 235px;
+    }
+
+    .navbar {
+        margin-top: 90px;
+    }
+
+    .navbar .nav > li > a {
+        text-align: center;
+        width: 70px;
+    }
+
+    .navbar .nav > li {
+        margin: 0 !important;
+    }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+    div.header {
+        height: 180px;
+    }
+
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+    div.header {
+        height: 105px;
+    }
+
+}
